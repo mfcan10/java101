@@ -47,6 +47,7 @@ public class Main {
         return sum;
     }
     public static void main(String[] args) throws IOException  {
+        System.out.println("----PART1------- ");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String str = scanner.nextLine();
@@ -56,7 +57,9 @@ public class Main {
         } else {
             System.out.println("This string is not a palindrome.");
         }
+        System.out.println("----PART2------- ");
         readints("ints.txt");
+        System.out.println("----PART3------- ");
         System.out.print("Enter count of numbers: ");
         int count = scanner.nextInt();
 
